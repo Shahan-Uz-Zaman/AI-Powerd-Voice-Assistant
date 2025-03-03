@@ -63,12 +63,12 @@ python server.py
 ```
 ### Creator
 ```bash
+ Shahan Uz Zaman
  Khanjeet Gogoi
  Uday Chodhary
- Shahan uz zaman
 ```
 ## Acknowledgments
 The majority of the code was generated with the help of ChatGPT. Feel free to modify and improve it as needed!
 
-For any issues or contributions, visit the repository: [Nalpo GitHub](https://github.com/mrrdark022/Nalpo)
+For any issues or contributions, visit the repository: [Shahan-Uz-Zaman GitHub] (https://github.com/Shahan-Uz-Zaman/AI-Powerd-Voice-Assistant.git)
 
