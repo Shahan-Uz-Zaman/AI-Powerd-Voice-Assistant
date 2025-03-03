@@ -1,4 +1,4 @@
-# Nalpo - Voice Assistant Using ESP32 and Gemini AI
+# Nalpo - AI powered Voice Assistant Using ESP32 and Gemini AI
 ![image](https://github.com/user-attachments/assets/494c142c-5887-4c1b-a6e1-76412731613c)
 
 ## Overview
