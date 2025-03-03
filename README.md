@@ -22,7 +22,7 @@ Additionally, we have added expressive face with **four LEDs and two servos** co
 ### Clone the Repository
 To get started, clone the repository to your local machine:
 ```bash
-git clone https://github.com/mrrdark022/Nalpo
+git clone https://github.com/Shahan-Uz-Zaman/AI-Powerd-Voice-Assistant.git
 ```
 
 ### Hardware Setup
@@ -70,5 +70,5 @@ python server.py
 ## Acknowledgments
 The majority of the code was generated with the help of ChatGPT. Feel free to modify and improve it as needed!
 
-For any issues or contributions, visit the repository: [Shahan-Uz-Zaman GitHub] (https://github.com/Shahan-Uz-Zaman/AI-Powerd-Voice-Assistant.git)
+For any issues or contributions, visit the repository: [Shahan-Uz-Zaman GitHub](https://github.com/Shahan-Uz-Zaman/AI-Powerd-Voice-Assistant.git)
 
