@@ -1,30 +1,34 @@
-Nalpo - Voice Assistant Using ESP32 and Gemini AI
-image
+# Nalpo - Voice Assistant Using ESP32 and Gemini AI
+![image](https://github.com/user-attachments/assets/494c142c-5887-4c1b-a6e1-76412731613c)
 
-Overview
-Nalpo is a voice assistant system that uses an ESP32 and an INMP441 microphone to capture audio. The captured audio is sent to a server, where speech is detected and transcribed. The text is then processed by Gemini AI to generate a response, which is converted back into speech and played through a Bluetooth speaker connected to the server.
+## Overview
+Nalpo is a voice assistant system that uses an **ESP32** and an **INMP441 microphone** to capture audio. The captured audio is sent to a server, where speech is detected and transcribed. The text is then processed by **Gemini AI** to generate a response, which is converted back into speech and played through a Bluetooth speaker connected to the server.
 
-Additionally, we have added expressive face with four LEDs and two servos controlled by an ESP8266. The face synchronizes with the assistant’s voice, displaying different movements based on the interaction state:
+Additionally, we have added expressive face with **four LEDs and two servos** controlled by an **ESP8266**. The face synchronizes with the assistant’s voice, displaying different movements based on the interaction state:
+- **Idle Mode**: The face moves randomly.
+- **Recording Mode**: The face stops moving, and the mouth LEDs glow.
+- **Speaking Mode**: The mouth LEDs blink with a 50ms delay to simulate speech.
 
-Idle Mode: The face moves randomly.
-Recording Mode: The face stops moving, and the mouth LEDs glow.
-Speaking Mode: The mouth LEDs blink with a 50ms delay to simulate speech.
-Features
-ESP32 Audio Streaming: Captures and sends live audio data to the server.
-Speech Detection: Server listens for speech and starts recording automatically.
-Gemini AI Integration: Processes transcribed text and generates responses.
-Text-to-Speech (TTS): Converts AI-generated text to speech.
-Bluetooth Speaker Output: Plays the synthesized speech output.
-Animated Face (ESP8266): Expressive face with servo and LED-based mouth movement.
-Installation
-Clone the Repository
+## Features
+- **ESP32 Audio Streaming**: Captures and sends live audio data to the server.
+- **Speech Detection**: Server listens for speech and starts recording automatically.
+- **Gemini AI Integration**: Processes transcribed text and generates responses.
+- **Text-to-Speech (TTS)**: Converts AI-generated text to speech.
+- **Bluetooth Speaker Output**: Plays the synthesized speech output.
+- **Animated Face (ESP8266)**: Expressive face with servo and LED-based mouth movement.
+
+## Installation
+
+### Clone the Repository
 To get started, clone the repository to your local machine:
-
+```bash
 git clone https://github.com/mrrdark022/Nalpo
-Hardware Setup
-Pin Connections
-Ensure the INMP441 microphone is properly connected to the ESP32:
+```
 
+### Hardware Setup
+#### Pin Connections
+Ensure the **INMP441 microphone** is properly connected to the **ESP32**:
+```
 +------------------+
 |   INMP441 Mic   |
 +------------------+
@@ -41,20 +45,30 @@ Ensure the INMP441 microphone is properly connected to the ESP32:
     +-----+
        |
 Wi-Fi / UDP Connection (to server)
-Ensure that your ESP32 firmware is correctly flashed using the provided .ino code in your preferred IDE.
+```
+Ensure that your **ESP32** firmware is correctly flashed using the provided `.ino` code in your preferred IDE.
 
-Server Setup
-Navigate to the server directory:
+### Server Setup
+1. Navigate to the server directory:
+```bash
 cd Nalpo
-Install required dependencies:
+```
+2. Install required dependencies:
+```bash
 pip install -r requirement.txt  # (Use a virtual environment if needed)
-Start the server:
+```
+3. Start the server:
+```bash
 python server.py
-Creator
+```
+### Creator
+```bash
  Khanjeet Gogoi
  Uday Chodhary
  Shahan uz zaman
-Acknowledgments
+```
+## Acknowledgments
 The majority of the code was generated with the help of ChatGPT. Feel free to modify and improve it as needed!
 
-For any issues or contributions, visit the repository: Nalpo GitHub
+For any issues or contributions, visit the repository: [Nalpo GitHub](https://github.com/mrrdark022/Nalpo)
+
